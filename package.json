@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/tchestnut85/deep-thoughts#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.3",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
