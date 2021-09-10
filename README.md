@@ -38,7 +38,7 @@ MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https
 https://github.com/Mannyalfa/deep-thoughts
 
 ## Website
-https://gentle-bastion-78764.herokuapp.com/
+https://infinite-dusk-50529.herokuapp.com/
     
 
 ## Credits
