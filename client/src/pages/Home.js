@@ -25,7 +25,7 @@ const Home = () => {
         )}
         <div className={`col-12 mb-3 ${loggedIn && 'col-lg-8'}`}>
           {loading ? (
-            <div>Loading...</div>
+            <div>Just a sec...</div>
           ) : (
               <ThoughtList thoughts={thoughts} title='Some Feed for Thought(s)...' />
             )}

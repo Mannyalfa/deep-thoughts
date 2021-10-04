@@ -1,6 +1,6 @@
 :root {
-  --primary: #2a4443;
-  --secondary: #99c5f7;
+  --primary: #000;
+  --secondary: #1e0786;
   --tertiary: #b2c2c1;
   --quatrinary: #cadbda;
   --light: #e1f5f4;
@@ -26,11 +26,11 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inconsolata', monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 20px;
-  color: var(--dark);
+  color: var(--light);
   background-color: #f3fffee1;
 }
 
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Karla', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   margin: 5px 0;
   line-height: 1.25;
@@ -56,6 +56,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  color: var(--secondary);
 }
 
 h4 {
@@ -72,6 +73,7 @@ h6 {
 
 p {
   font-size: 1.1rem;
+  color: var(--secondary);
   margin-top: 0;
 }
 
@@ -141,7 +143,7 @@ nav a:hover {
 }
 
 .card-header {
-  color: var(--secondary);
+  color: var(--tertiary);
   margin: 0;
   background-color: var(--dark);
   padding: 0.625rem;
@@ -186,7 +188,7 @@ nav a:hover {
   cursor: pointer;
   line-height: 20px;
   display: inline-block;
-  color: var(--secondary);
+  color: var(--tertiary);
   margin-right: 0.2rem;
 }
 
@@ -792,8 +794,8 @@ nav a:hover {
   background-color: var(--light);
 }
 
-.bg-dark {
-  background-color: var(--dark);
+.bg-transparent {
+  background-color: transparent);
 }
 
 /* FLEX CONTENT */

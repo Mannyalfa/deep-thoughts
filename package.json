@@ -14,14 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tchestnut85/deep-thoughts.git"
+    "url": "https://github.com/Mannyalfa/deep-thoughts"
   },
-  "author": "",
+  "author": "Manny Alfaro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tchestnut85/deep-thoughts/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/tchestnut85/deep-thoughts#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "graphql": "^15.5.3",
